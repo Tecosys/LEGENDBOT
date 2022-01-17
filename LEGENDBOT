@@ -85,7 +85,7 @@ _set_bot () {
     _run_legend_git
     cd $LEGENFPATH
     _run_lege_git
-    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 ../updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "    Starting LEGENDBOT    "
     
