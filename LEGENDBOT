@@ -1,12 +1,10 @@
-
-
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $LEGEND_REPO == "PRO" ]]
+    if [[ $LEGEND_REPO == "LEGENDBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
-    elif [[ $LEGEND_REPO == "MULTI" ]]
+    elif [[ $LEGEND_REPO == "LEGENDBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
     elif [[ $LEGEND_REPO =~ $regex ]]
@@ -21,6 +19,7 @@ _get_repolink () {
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
     fi
 }
+
 
 
 _setting_bot () {
@@ -38,7 +37,7 @@ _setting_bot () {
     cd $LEGENDPATH
     echo "    ⚜️Starting Lêɠêɳ̃dẞø†⚜️     "
  
-    python3 ../updater.py ../requirements.txt requirements.txt
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
     python3 -m userbot
 }
 
