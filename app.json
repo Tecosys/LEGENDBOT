@@ -17,6 +17,7 @@
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
+    },
     "ALIVE_NAME": {
       "description": "give your name",
       "value": ""
