@@ -1,97 +1,45 @@
-#!/bin/bash
 
-_get_ziplink () {
-    local regex
-    regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "PRO" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "MULTI" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
-    elif [[ $UPSTREAM_REPO =~ $regex ]]
-    then
-        if [[ $UPSTREAM_REPO_BRANCH ]]
-        then
-            echo "${UPSTREAM_REPO}/archive/${UPSTREAM_REPO_BRANCH}.zip"
-        else
-            echo "${UPSTREAM_REPO}/archive/master.zip"
-        fi
-    else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    fi
-}
 
 _get_repolink () {
     local regex
-    local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "PRO" ]]
+    if [[ $LEGEND_REPO == "PRO" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "MULTI" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+    elif [[ $LEGEND_REPO == "MULTI" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EVVNFUkJPVA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO =~ $regex ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+    elif [[ $LEGEND_REPO =~ $regex ]]
     then
-        rlink=`echo "${UPSTREAM_REPO}"`
+        if [[ $LEGEND_REPO_BRANCH ]]
+        then
+            echo "${LEGEND_REPO}/archive/${LEGEND_REPO_BRANCH}.zip"
+        else
+            echo "${LEGEND_REPO}/archive/master.zip"
+        fi
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
     fi
-    echo "$rlink"
 }
 
 
-_run_python_code() {
-    python3${pVer%.*} -c "$1"
-}
-
-_run_legend_git() {
-    $(_run_python_code 'from git import Repo
-import sys
-
-OFFICIAL_UPSTREAM_REPO = "https://github.com/LEGEND-AI/LEGENDBOT"
-ACTIVE_BRANCH_NAME = "master"
-
-repo = Repo.init()
-origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
-origin.fetch()
-repo.create_head(ACTIVE_BRANCH_NAME, origin.refs[ACTIVE_BRANCH_NAME])
-repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
-}
-
-_run_lege_git() {
-    local repolink=$(_get_repolink)
-    $(_run_python_code 'from git import Repo
-import sys
-OFFICIAL_UPSTREAM_REPO="'$repolink'"
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "master"
-repo = Repo.init()
-origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
-origin.fetch()
-repo.create_head(ACTIVE_BRANCH_NAME, origin.refs[ACTIVE_BRANCH_NAME])
-repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
-}
-
-_set_bot () {
+_setting_bot () {
     local zippath
     zippath="LEGENDBOT.zip"
-    echo "  Downloading source code ..."
-    wget -q $(_get_ziplink) -O "$zippath"
+    echo "  Downloading LegendBot Source Code..."
+    wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
     LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  Cleaning ..."
+    echo "  LegendBotCleaning.."
     rm -rf "$zippath"
-    _run_legend_git
-    cd $LEGENFPATH
-    _run_lege_git
+    sleep 5
+    cd $LEGENDPATH
+    echo "    ⚜️Starting Lêɠêɳ̃dẞø†⚜️     "
+ 
     python3 ../updater.py ../requirements.txt requirements.txt
-    chmod -R 755 bin
-    echo "    Starting LEGENDBOT    "
-    
     python3 -m userbot
 }
 
-_set_bot
+_setting_bot
