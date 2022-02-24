@@ -1,7 +1,7 @@
 {
   "name": "LEGENDBOT",
-  "description": "Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/74530a36e7b5e60ced878.jpg",
+  "description": "Made with Love And By Python Language With Hardwork... By @LegendBoy_XD❤ ",
+  "logo": "https://telegra.ph/file/7aca8e594e14f51f0ce14.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "website": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "success_url": "https://t.me/Legend_Userbot",
+  "repository": "https://github.com/LEGEND-AI/LEGENDBOT/",
+  "website": "https://github.com/LEGEND-AI/LEGENDBOT/",
+  "success_url": "https://t.me/Legend_K_Userbot",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
