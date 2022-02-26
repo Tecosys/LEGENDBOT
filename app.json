@@ -65,7 +65,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Test",
-      "value": "PRO",
+      "value": "pro",
       "required": false
     },
     "TZ": {
