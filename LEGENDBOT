@@ -73,7 +73,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _start_bot () {
     local zippath
-    zippath="LegendUserBot.zip"
+    zippath="LegendBot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_zlink) -O "$zippath"
     echo "  Unpacking Data ..."
