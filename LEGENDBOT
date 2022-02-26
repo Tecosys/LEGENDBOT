@@ -5,7 +5,7 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "pro" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFRFU1QvTEtURVNUL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO == "multi" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
@@ -18,7 +18,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFRFU1QvTEtURVNUL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
@@ -28,7 +28,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "pro" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFRFU1QvTEtURVNU" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
     elif [[ $UPSTREAM_REPO == "multi" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
@@ -36,7 +36,7 @@ _get_repolink () {
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFRFU1QvTEtURVNU" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -49,7 +49,7 @@ _run_python_code() {
 _run_packgit() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/LEGENDTEST/LKTEST"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/LEGEND-AI/LEGENDBOT"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
