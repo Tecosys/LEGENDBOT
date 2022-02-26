@@ -63,6 +63,11 @@
       "value": "",
       "required": false
     },
+    "UPSTREAM_REPO": {
+      "description": "Test",
+      "value": "PRO",
+      "required": false
+    },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
