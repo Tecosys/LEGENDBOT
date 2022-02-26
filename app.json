@@ -53,6 +53,11 @@
       "value": "",
       "required": false
     },
+    "SPAM": {
+      "description": "Required to Add Plugin Of Assistant Spam Bot",
+      "value": "",
+      "required": false
+    },
     "APP_NAME": {
       "description": "YOUR app name ",
       "value": "",
