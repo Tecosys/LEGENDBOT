@@ -31,7 +31,7 @@
       "value": ""
     },
     "LEGEND_STRING": {
-      "description": "Get this value by running python3 telesetup.py locally or soon",
+      "description": "Get this value by running https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py",
       "value": ""
     },
     "BOT_TOKEN": {
@@ -64,7 +64,7 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Test",
+      "description": "U Can Use This To Set Own Commands To Know More About It. ask in Group",
       "value": "pro",
       "required": false
     },
