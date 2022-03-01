@@ -21,7 +21,6 @@
 [![Contributors](https://img.shields.io/github/contributors/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/LEGEND-AI/LEGENDBOT/blob/main/LICENSE)   
-[![Sparkline](https://stars.medv.io/LEGEND-AI/LEGENDBOT.svg)](https://stars.medv.io/LEGEND-AI/LEGENDBOT)
 ------
 
 ## Status Of Bot 
@@ -42,6 +41,7 @@
 
 
 <h3> Dєρℓογ το нєяοκυ </h3>
+
 - Click Here :- [main repo](https://github.com/LEGEND-AI/LEGENDBOT)
 - Fork The Main Repo 
 - Go to Setting Of Repo 
@@ -97,13 +97,22 @@
   
 >                     ❗YOU ARE FOREWARNED❗
 > We won't be responsible for any kind of ban due to this bot.
+
 > LegendBot was made for fun purpose and to make group management easier.
+
 > It's your concern if you spam and gets your account banned.
+
 > Also, Forks won't be entertained.
+
 > If you fork this repo and edit plugins, it's your concern for further updates.
+
 > Forking Repo is fine. But if you edit something we will not provide any help.
+
 > In short, Fork At Your Own Risk    
->               ❤ Thanks for using our bot 😺❤
+
+>               💖 Thanks for using our bot 💖
 
 </details>
 
+
+> Made with 💕 by [@LegendBot_XD](https://t.me/LegendBot_XD).    
