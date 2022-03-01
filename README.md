@@ -15,12 +15,12 @@
 [![Forks](https://img.shields.io/github/forks/LEGEND-AI/LEGENDBOT?style=flat-square&color=orange)](https://github.com/LEGEND-AI/LEGENDBOT/fork)
 [![Size](https://img.shields.io/github/repo-size/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/)   
 [![Python](https://img.shields.io/badge/Python-v3.10.2-blue)](https://www.python.org/)
-[![CodeFactor](https://www.codefactor.io/repository/github/LEGEND-AI/LEGENDBOT/badge/main)](https://www.codefactor.io/repository/github/LEGEND-AI/LEGENDBOT/overview/main)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/commit-activity)   
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/LEGEND-AI/LEGENDBOT)
 [![Contributors](https://img.shields.io/github/contributors/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/LEGEND-AI/LEGENDBOT/blob/main/LICENSE)   
+
 ------
 
 ## Status Of Bot 
@@ -65,15 +65,14 @@
 
 * [![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
 
-    -To Get Details Of StringSession Follow Step: 
-
-    - Go To Telegram And Search @Legend_SessionGeneratorBot
-    - Click Start
-    - Send Ur Phone Number To @Legend_SessionGeneratorBot
-    - U Received Code From Telegram Like This=278291
-    - Copy Ur Code
-    - Send The Code To @Legend_SessionGeneratorBot with Each Space
-    - Check SAVED MESSAGE
+-To Get Details Of StringSession Follow Step: 
+- Go To Telegram And Search @Legend_SessionGeneratorBot
+- Click Start
+- Send Ur Phone Number To @Legend_SessionGeneratorBot
+- U Received Code From Telegram Like This=278291
+- Copy Ur Code
+- Send The Code To @Legend_SessionGeneratorBot with Each Space
+- Check SAVED MESSAGE
 
 ### Terminal
 - Open the terminal.
