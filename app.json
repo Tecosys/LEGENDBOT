@@ -81,7 +81,7 @@
     }
   }],
   "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/keshavop16/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
