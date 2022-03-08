@@ -54,7 +54,7 @@
       "required": false
     },
     "SPAM": {
-      "description": "Required to Add Plugin Of Assistant Spam Bot",
+      "description": "Required to Add Plugin Of Assistant Spam Bot (ON/OFF)",
       "value": "",
       "required": false
     },
