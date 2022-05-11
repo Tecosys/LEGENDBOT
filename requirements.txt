@@ -72,3 +72,4 @@ yt_dlp
 git+https://github.com/LEGEND-AI/Telethon 
 git+https://github.com/goldsmith/Wikipedia
 git+https://github.com/ITS-LEGENDBOT/py-googletrans
+git+https://github.com/alexmercerind/youtube-search-python
