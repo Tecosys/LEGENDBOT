@@ -10,6 +10,8 @@ dataclasses
 DateTime
 emoji
 fonttools
+fake_useragent
+faker
 geopy
 gitpython
 glitch_this
@@ -20,6 +22,7 @@ gtts
 hachoir
 heroku3
 html-telegraph-poster
+htmlwebshot
 httpx[http2]
 humanize
 IMDbPY
@@ -68,6 +71,8 @@ vcsi
 wand
 wget
 yt_dlp
+youtube-search-python>=1.3.2
+youtube_search
 
 git+https://github.com/ITS-LEGENDBOT/Telethon 
 git+https://github.com/goldsmith/Wikipedia
