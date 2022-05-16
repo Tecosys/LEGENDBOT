@@ -1,1 +1,1 @@
-worker: bash legend
+worker: bash DOMINATORx
