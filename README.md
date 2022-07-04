@@ -90,7 +90,7 @@
 - Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
 - Your LegendBot Session Will be saved in your Telegram Saved Message.
 
-<h3> Dєρℓογ Locally </h3>
+## Self Host VPS
 
 - `sudo apt update && sudo apt upgrade -y`
 
