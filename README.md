@@ -1,4 +1,4 @@
-[![LEGENDBOT](https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
+1[![LEGENDBOT](https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg)](https://github.com/ITS-LEGENDBOT/LEGENDBOT)
 
 
 <h1 align="center">
@@ -91,6 +91,8 @@
 - Your LegendBot Session Will be saved in your Telegram Saved Message.
 
 ## Self Host VPS
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/DheBIuT1Fmg?label=Tutorial+•+SelfHost+•&style=social)](https://youtu.be/DheBIuT1Fmg)
 
 - `sudo apt update && sudo apt upgrade -y`
 
