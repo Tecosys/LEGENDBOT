@@ -70,7 +70,6 @@ wget
 yt_dlp
 fake_useragent
 faker
-telethon
 htmlwebshot
 git+https://github.com/ITS-LEGENDBOT/py-googletrans
 git+https://github.com/goldsmith/Wikipedia
