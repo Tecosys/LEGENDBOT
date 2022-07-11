@@ -68,6 +68,11 @@
       "value": "pro",
       "required": false
     },
+    "EXTRA_REPO": {
+      "description": "To install extra plugins. if you don't want, change value to 'False'",
+      "value": "True",
+      "required": false
+    },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
