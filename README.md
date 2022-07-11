@@ -60,7 +60,7 @@
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `DB_URI` = Use Sql Database  From elephantsql.com
 - `HANDLER` = Use Your Command Handler Any Symbol
-- `SPAM` = To Use Spam Bot Token Command
+- `EXTRA_REPO` = True / False
 - `UPSTREAM_REPO` = pro
 - `TZ` = Asia/Kolkata 
 
