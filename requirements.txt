@@ -68,10 +68,12 @@ vcsi
 wand
 wget
 yt_dlp
+youtube_search
 fake_useragent
 faker
 htmlwebshot
+
+git+https://github.com/alexmercerind/youtube-search-python
+git+https://github.com/LEGEND-AI/Telethon
 git+https://github.com/ITS-LEGENDBOT/py-googletrans
 git+https://github.com/goldsmith/Wikipedia
-git+https://github.com/alexmercerind/youtube-search-python
-git+https://github.com/ITS-LEGENDBOT/Telethon
