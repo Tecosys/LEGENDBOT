@@ -88,7 +88,7 @@ _start_bot () {
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "    Starting LegendUserBot    "
-    python3 -m userbot
+    python3 -m Legendbot
 }
 
 _start_bot
