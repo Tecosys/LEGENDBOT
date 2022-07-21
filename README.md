@@ -105,27 +105,17 @@
 
 - `sudo apt install virtualenv`
 
-- `virtualenv venv`
-
-- `source venv/bin/activate`
-
-- `pip3 install -r requirements.txt`
-
 - `sudo apt install nano`
-
-- `sudo apt install screen`
-
-- `sudo apt install tmux`
 
 - `mv exampleconfig.py config.py`
 
 - `nano config.py` (fill this) -> ctrl+x -> y -> enter
 
+- `sudo apt install screen`
+
 - `screen -S LEGENDBOT`
 
-- `source venv/bin/activate`
-
-- `tmux`
+- `virtualenv venv`
 
 - `source venv/bin/activate`
 
@@ -134,6 +124,7 @@
 - `python3 -m userbot`
  
 ------
+
 ## Disclaimer
   
 >                     ❗YOU ARE FOREWARNED❗
