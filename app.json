@@ -3,14 +3,14 @@
   "description": "LegendBot is one of the best userbot on telegram based on telethon & python",
   "logo": "https://telegra.ph/file/ac9bd7bcdac984dd407b2.jpg",
   "keywords": [
-    "telegram",
-    "userbot",
     "plugin",
     "legendbot",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-AI/LEGENDBOT/",
+  "repository": "https://github.com/ITS-LEGENDBOT/LEGENDBOT",
+  "website": "#TODO",
+  "success_url": "#TODO",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -86,6 +86,9 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
