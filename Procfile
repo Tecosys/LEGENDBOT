@@ -1,2 +1,2 @@
- web: python3 -m Legendbot
+ web: bash LEGEND
  worker: bash LEGEND
