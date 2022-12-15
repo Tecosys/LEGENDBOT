@@ -1,7 +1,7 @@
 {
     "name": "Lêɠêɳ̃dẞο†",
-    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
-    "keywords": ["LegendBot is one of the best userbot on telegram based on telethon & python", "telethon"],
+    "description": ""LegendBot is one of the best userbot on telegram based on telethon & python.",
+    "keywords": ["telethon"],
     "repository": "https://github.com/LEGEND-AI/LEGENDBOT",
   "stack": "container",
     "env": {
