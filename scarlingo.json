@@ -1,6 +1,6 @@
 {
     "name": "Lêɠêɳ̃dẞο†",
-    "description": ""LegendBot is one of the best userbot on telegram based on telethon & python.",
+    "description": "LegendBot is one of the best userbot on telegram based on telethon & python.",
     "keywords": ["telethon"],
     "repository": "https://github.com/LEGEND-AI/LEGENDBOT",
   "stack": "container",
@@ -58,7 +58,8 @@
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
       "required": false
-    }
+        }
+
 
     }
   }
