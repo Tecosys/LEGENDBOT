@@ -5,10 +5,6 @@
     "repository": "https://github.com/LEGEND-AI/LEGENDBOT",
   "stack": "container",
     "env": {
-      "ENV": {
-      "description": "Set this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
     "ALIVE_NAME": {
       "description": "give your name",
       "value": ""
@@ -32,16 +28,6 @@
     "HANDLER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
       "value": ".",
-      "required": false
-    },
-    "API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "",
       "required": false
     },
     "UPSTREAM_REPO": {
