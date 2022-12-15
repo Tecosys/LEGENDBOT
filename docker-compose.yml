@@ -1,1 +1,14 @@
-
+version: "1.7"
+services:
+  worker:
+    build: .
+    environment:
+      ALIVE_NAME: $ALIVE_NAME
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      LEGEND_STRING: $LEGEND_STRING
+      BOT_TOEKN: $BOT_TOKEN
+      HANDLER: $HANDLER
+      UPSTREAM_REPO: $UPSTREAM_REPO
+      EXTRA_REPO: $EXTRA_REPO
+      TZ: $TZ
