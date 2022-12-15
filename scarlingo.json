@@ -1,0 +1,64 @@
+{
+    "name": "FallenX Music Bot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["AsuX", "AsuX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
+    "repository": "https://github.com/ITS-LEGENDX/STYLISH-MUSIC",
+  "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Set this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ALIVE_NAME": {
+      "description": "give your name",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "LEGEND_STRING": {
+      "description": "Get this value by running https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "value": ""
+    },
+    "HANDLER": {
+      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "value": ".",
+      "required": false
+    },
+    "API_KEY": {
+      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "APP_NAME": {
+      "description": "YOUR app name ",
+      "value": "",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "U Can Use This To Set Own Commands To Know More About It. ask in Group",
+      "value": "pro",
+      "required": false
+    },
+    "EXTRA_REPO": {
+      "description": "To install extra plugins. if you don't want, change value to 'False'",
+      "value": "True",
+      "required": false
+    },
+    "TZ": {
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
+      "required": false
+    }
+
+    }
+  }
