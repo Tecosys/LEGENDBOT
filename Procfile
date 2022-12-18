@@ -1,2 +1,2 @@
- web: bash LEGEND
- worker: bash LEGEND
+web: python -m http.server $PORT 
+worker: bash LEGEND
