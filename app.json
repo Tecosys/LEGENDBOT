@@ -67,10 +67,29 @@
             "value": "Asia/Kolkata",
             "required": false
         }
-    },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver.git"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip.git"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq.git"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs.git"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
 }
