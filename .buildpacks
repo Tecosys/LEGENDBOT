@@ -1,9 +1,0 @@
-https://github.com/Scalingo/python-buildpack.git
-https://github.com/Scalingo/nodejs-buildpack.git
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-https://github.com/heroku/heroku-buildpack-google-chrome.git
-https://github.com/heroku/heroku-buildpack-chromedriver.git
-https://github.com/heroku/heroku-buildpack-apt.git
-https://github.com/chrismytton/heroku-buildpack-jq.git
-https://github.com/rahulps1000/heroku-buildpack-nodejs.git
-https://github.com/opendoor-labs/heroku-buildpack-p7zip.git
