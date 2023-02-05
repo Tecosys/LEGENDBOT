@@ -56,7 +56,7 @@
       "value": "pro",
       "required": false
     },
-    "EXTRA_REPO": {
+    "EXTERNAL_REPO": {
       "description": "To install extra plugins. if you don't want, change value to 'False'",
       "value": "True",
       "required": false
