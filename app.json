@@ -56,6 +56,11 @@
       "value": "pro",
       "required": false
     },
+    "VCMODE": {
+      "description": "To install the Voice Chat plugin in LegendBot",
+      "value": "True",
+      "required": false
+    },
     "EXTERNAL_REPO": {
       "description": "To install extra plugins. if you don't want, change value to 'False'",
       "value": "True",
