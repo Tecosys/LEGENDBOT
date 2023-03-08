@@ -46,14 +46,7 @@
 </a>
 
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ sᴄᴀʟʟɪɴɢᴏ 」─
-    
-</h3>
 
-<p align="center"><a href="https://studio.mogenius.com//deploy?template=https://github.com/LEGEND-AI/LEGENDBOT"> <img src="https://studio.mogenius.com/deploy/button.svg" width="220" height="38.45"/></a></p>
-
-<h2 align="center">
   
 
 ---------
