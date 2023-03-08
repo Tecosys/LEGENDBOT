@@ -120,4 +120,4 @@ Tutorial Soon Provding
 </details>
 
 
-> Made with 💕 by [@LegendBot_XD](https://t.me/LegendBot_XD).    
+> Made with 💕 by [@LegendUserBot_XD](https://t.me/LegendUserBot_XD).    
