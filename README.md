@@ -35,11 +35,16 @@
   
 ## YouTube 📺
 - [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCvp8PY25PTRhFDZjLv3sVfg?style=social)](https://youtube.com/channel/UCvp8PY25PTRhFDZjLv3sVfg)
-- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Heroku+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
 
 -------
-  
+
 ## Variables
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Collect+•+All Variables+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+Required :-
+
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
 - `LEGEND_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
@@ -51,12 +56,21 @@
 - `TZ` = Asia/Kolkata 
 - `VCMODE` = True/False
   
+Optional :-
+
 --------
-  
 ## String Session
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Generate+•+Telethon+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+
 [![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
 
+Bot Soon
+
 -------
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Heroku+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 <h3> Heroku Deployment </h3>
 <a href="https://heroku.com/deploy/" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
@@ -66,7 +80,8 @@
 
 <h3> Vps Deployment </h3>
 
-Tutorial Soon Providing 
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Vps+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 - `sudo apt update && sudo apt upgrade -y`
 
@@ -100,13 +115,15 @@ Tutorial Soon Providing
 ------
 
 <h3> Okteto Deployment </h3>
-Tutorial Soon Providing
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Okteto+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
 
 <h3> Railway Deployment </h3>
-Tutorial Soon Provding
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Railway+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 <h3> Mongenius Deployment </h3>
-Tutorial Soon Provding
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Mongenius+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 
 ## Disclaimer
