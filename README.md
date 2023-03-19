@@ -41,7 +41,8 @@
 
 ## Variables
 
-- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Collect+•+All Variables+•&style=social)](https://youtu.be/CH_KO1wim2o)
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Collect+•+AllVariables+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
 
 Required :-
 
@@ -66,7 +67,7 @@ Optional :-
 
 [![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
 
-Bot Soon
+Bot Link Will Soon Provide 
 
 -------
 
@@ -120,10 +121,40 @@ Bot Soon
 
 
 <h3> Railway Deployment </h3>
+
+
 - [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Railway+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 <h3> Mongenius Deployment </h3>
+
+
 - [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Mongenius+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+
+<h3> Termux Deployment </h3>
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Termux+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+
+<h3> Qovery Deployment </h3>
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Qovery+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+
+<h3> Fly.io Deployment </h3>
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Fly.io+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+<h3> GitHub Action Deployment </h3>
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Github+•+Action+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+<h3> Render Deployment </h3>
+
+- [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Tutorial+•+Render+•&style=social)](https://youtu.be/CH_KO1wim2o)
+
+<h3> Koyeb Deployment </h3>
+
 
 
 ## Disclaimer
