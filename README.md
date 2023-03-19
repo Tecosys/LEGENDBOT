@@ -10,11 +10,11 @@
 </h6>
 
 
-[![](https://img.shields.io/badge/LegendBot-v3.0-blue)](#)
+[![](https://img.shields.io/badge/LegendBot-v2.0-blue)](#)
 [![Stars](https://img.shields.io/github/stars/LEGEND-AI/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/LEGEND-AI/LEGENDBOT/stargazers)
 [![Forks](https://img.shields.io/github/forks/LEGEND-AI/LEGENDBOT?style=flat-square&color=orange)](https://github.com/LEGEND-AI/LEGENDBOT/fork)
 [![Size](https://img.shields.io/github/repo-size/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/)   
-[![Python](https://img.shields.io/badge/Python-v3.10.2-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-v3.10.5-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/commit-activity)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/LEGEND-AI/LEGENDBOT)
 [![Contributors](https://img.shields.io/github/contributors/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/contributors)
