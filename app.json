@@ -5,7 +5,6 @@
   "keywords": [
     "plugin",
     "legendbot",
-    "modular",
     "productivity"
   ],
   "repository": "https://github.com/LEGEND-AI/LEGENDBOT",
@@ -54,6 +53,11 @@
     "UPSTREAM_REPO": {
       "description": "U Can Use This To Set Own Commands To Know More About It. ask in Group",
       "value": "pro",
+      "required": false
+    },
+    "VCMODE": {
+      "description": "To install the Voice Chat plugin in LegendBot",
+      "value": "True",
       "required": false
     },
     "EXTERNAL_REPO": {

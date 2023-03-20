@@ -6,7 +6,7 @@ _get_zlink () {
     if [[ $UPSTREAM_REPO == "pro" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "multi" ]]
+    elif [[ $UPSTREAM_REPO == "update" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1BSS9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -29,7 +29,7 @@ _get_repolink () {
     if [[ $UPSTREAM_REPO == "pro" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lUUy1MRUdFTkRCT1QvTEVHRU5EQk9U" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "multi" ]]
+    elif [[ $UPSTREAM_REPO == "update" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1BSS9MRUdFTkRVU0VSQk9U" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -74,20 +74,19 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 _start_bot () {
     local zippath
     zippath="LEGENDBOT.zip"
-    echo "  Downloading source code ..."
+    echo "   ↤↤↤↤↤ ∂σωиℓσα∂ιиg ѕσυя¢є ¢σ∂є ↦↦↦↦↦.."
     wget -q $(_get_zlink) -O "$zippath"
-    echo "  Unpacking Data ..."
+    echo "  ↫↫↫↫↫ υиρα¢кιиg ∂αтα ↬↬↬↬↬ ..."
     LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
-    echo "Done"
-    echo "  Cleaning ..."
+    echo "  ¢ℓєαиιиg ..."
     rm -rf "$zippath"
     _run_legendpackgit
     cd $LEGENDPATH
     _run_legendgit
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    Starting LegendUserBot    "
+    echo "    Ⓢⓣⓐⓡⓣⓘⓝⓖ ⓁⓔⓖⓔⓝⓓⓊⓢⓔⓡⒷⓞⓣ   "
     python3 -m Legendbot
 }
 
