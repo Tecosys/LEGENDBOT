@@ -67,13 +67,14 @@ validators
 vcsi
 wand
 wget
-yt_dlp
-youtube_search
+https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
+youtube-search
+youtube-search-python
 fake_useragent
 faker
 htmlwebshot
 
-git+https://github.com/alexmercerind/youtube-search-python
+
 git+https://github.com/Jisan09/Telethon
 git+https://github.com/ITS-LEGENDBOT/py-googletrans
 git+https://github.com/goldsmith/Wikipedia
