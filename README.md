@@ -179,4 +179,4 @@ Bot Link Will Soon Provide
 </details>
 
 
-> Made with 💕 by [@LegendUserBot_XD](https://t.me/LegendUserBot_XD).    
+> Made with 💕 by [@TeamLegendXD](https://t.me/TeamLegendXD).    
