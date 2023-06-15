@@ -5,10 +5,10 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "pro" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC5naXQ=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC9hcmNoaXZlL21haW4uemlw" | base64 -d
     elif [[ $UPSTREAM_REPO == "update" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC5naXQ=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC9hcmNoaXZlL21haW4uemlw" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC5naXQ=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0F2aXNoZWtiaGF0dGFjaGFyamVlL0xFR0VOREJPVC9hcmNoaXZlL21haW4uemlw" | base64 -d
     fi
 }
 
