@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bsh
 
 _get_zlink () {
     local regex
