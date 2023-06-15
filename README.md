@@ -11,16 +11,16 @@
 
 
 [![](https://img.shields.io/badge/LegendBot-v2.0-blue)](#)
-[![Stars](https://img.shields.io/github/stars/LEGEND-AI/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/LEGEND-AI/LEGENDBOT/stargazers)
-[![Forks](https://img.shields.io/github/forks/LEGEND-AI/LEGENDBOT?style=flat-square&color=orange)](https://github.com/LEGEND-AI/LEGENDBOT/fork)
-[![Size](https://img.shields.io/github/repo-size/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/)   
+[![Stars](https://img.shields.io/github/stars/LEGEND-AI/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/Tecosys/LEGENDBOT/stargazers)
+[![Forks](https://img.shields.io/github/forks/LEGEND-AI/LEGENDBOT?style=flat-square&color=orange)](https://github.com/Tecosys/LEGENDBOT/fork)
+[![Size](https://img.shields.io/github/repo-size/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/Tecosys/LEGENDBOT/)   
 [![Python](https://img.shields.io/badge/Python-v3.10.5-blue)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/commit-activity)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/LEGEND-AI/LEGENDBOT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Tecosys/LEGENDBOT/graphs/commit-activity)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Tecosys/LEGENDBOT)
 [![CodeFactor](https://www.codefactor.io/repository/github/tecosys/legendbot/badge)](https://www.codefactor.io/repository/github/tecosys/legendbot)
 [![Contributors](https://img.shields.io/github/contributors/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/LEGEND-AI/LEGENDBOT/blob/main/LICENSE) 
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Tecosys/LEGENDBOT/blob/main/LICENSE) 
 ------
 ## Status Of Bot 
 <p align="left">
@@ -66,7 +66,7 @@ Optional :-
 - [![YouTube Video Views](https://img.shields.io/youtube/views/CH_KO1wim2o?label=Generate+•+Telethon+•&style=social)](https://youtu.be/CH_KO1wim2o)
 
 
-[![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
+[![Run on Repl.it](https://replit.com/badge/github/LEGEND-AI/LEGENDBOT)](https://replit.com/@Teameviral/Session-Maker#main.py)
 
 Bot Link Will Soon Provide 
 
@@ -180,4 +180,4 @@ Bot Link Will Soon Provide
 </details>
 
 
-> Made with 💕 by [@TeamLegendXD](https://t.me/TeamLegendXD).    
+> Made with 💕 by [@Tecosysdevs](https://t.me/Tecosysdevs).    
