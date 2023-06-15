@@ -17,9 +17,10 @@
 [![Python](https://img.shields.io/badge/Python-v3.10.5-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/commit-activity)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/LEGEND-AI/LEGENDBOT)
+[![CodeFactor](https://www.codefactor.io/repository/github/tecosys/legendbot/badge)](https://www.codefactor.io/repository/github/tecosys/legendbot)
 [![Contributors](https://img.shields.io/github/contributors/LEGEND-AI/LEGENDBOT?style=flat-square&color=green)](https://github.com/LEGEND-AI/LEGENDBOT/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/LEGEND-AI/LEGENDBOT/blob/main/LICENSE)   
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/LEGEND-AI/LEGENDBOT/blob/main/LICENSE) 
 ------
 ## Status Of Bot 
 <p align="left">
@@ -28,8 +29,8 @@
 ------
   
 ## Telegram 🏪
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/LegendBot_Group)
-- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/LegendBot_Update)
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/LegendBot_Userbot)
+- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/)
   
 ------
   
